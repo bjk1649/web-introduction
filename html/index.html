@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>자기소개</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+</head>
+
+<body>
+    <div id="header" class="container py-3">
+        <h1>자기소개</h1>
+    </div>
+    <div id="introduction" class="container py-3">
+        <h2>이름: 포이</h2>
+        <h2>사는 곳: 사당동</h2>
+        <h3>안녕하세요 저는 포이입니다. 저는 매운 음식을 잘 못먹습니다. 감사합니다.</h2>
+    </div>
+    <div id="best-movies" class="container py-3">
+        <h2>인생 영화 BEST5</h2>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>순위</th>
+                    <th>제목</th>
+                    <th>장르</th>
+                    <th>평점</th>
+                    <th>포스터</th>
+                    <th>링크</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>더 퍼스트 슬램덩크</td>
+                    <td>액션, SF, 스릴러</td>
+                    <td>9.28</td>
+                    <td><img src="https://movie.naver.com/movie/bi/mi/photoViewPopup.naver?movieCode=223800"
+                            class="img-fluid" alt="인셉션 포스터"></td>
+                    <td><a href="https://movie.naver.com/movie/bi/mi/basic.naver?code=223800" target="_blank">네이버 영화
+                            링크</a></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>어벤져스: 엔드게임 (Avengers: Endgame)</td>
+                    <td>액션, SF</td>
+                    <td>9.2</td>
+                    <td><img src="https://movie.naver.com/movie/bi/mi/photoViewPopup.naver?movieCode=136900"
+                            alt="어벤져스: 엔드게임 포스터" class="img-fluid"></td>
+                    <td><a href="https://movie.naver.com/movie/bi/mi/basic.nhn?code=136900" target="_blank">네이버 영화
+                            링크</a></td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>비긴 어게인</td>
+                    <td>드라마, 로맨스</td>
+                    <td>9.2</td>
+                    <td><img src="https://movie.naver.com/movie/bi/mi/photoViewPopup.naver?movieCode=96379"
+                            alt="비긴어게인 포스터" class="img-fluid"></td>
+                    <td><a href="https://movie.naver.com/movie/bi/mi/basic.naver?code=96379" target="_blank">네이버 영화
+                            링크</a></td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>나니아 연대기</td>
+                    <td>액션, SF, 판타지</td>
+                    <td>9.3</td>
+                    <td><img src="https://movie.naver.com/movie/bi/mi/photoViewPopup.naver?movieCode=57635"
+                            alt="나니아연대기 포스터" class="img-fluid"></td>
+                    <td><a href="https://movie.naver.com/movie/bi/mi/basic.naver?code=57635" target="_blank">네이버 영화
+                            링크</a></td>
+                </tr>
+
+                <tr>
+                    <td>5</td>
+                    <td>아이언맨</td>
+                    <td>액션, SF</td>
+                    <td>9.05</td>
+                    <td><img src="https://movie.naver.com/movie/bi/mi/photoViewPopup.naver?movieCode=44885"
+                            alt="아이언맨 포스터" class="img-fluid"></td>
+                    <td><a href="https://movie.naver.com/movie/bi/mi/basic.naver?code=44885">네이버 영화 링크</a></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div id="visitor-book" class="container py-3">
+        <h2> 방명록</h2>
+        이름: <input class="text">
+        <br>본인취향영화<br>
+        <input type="checkbox" name="movie" value="slam-dunk">더 퍼스트 슬램덩크<br>
+        <input type="checkbox" name="movie" value="avengers">어벤져스: 엔드게임<br>
+        <input type="checkbox" name="movie" value="begin-again">비긴 어게인<br>
+        <input type="checkbox" name="movie" value="nania">나니아 연대기<br>
+        <input type="checkbox" name="movie" value="iron-man">아이언맨<br>
+        <p><button type="button">등록</button> <button type="reset">취소</button></p>
+    </div>
+</body>
+
+</html>
