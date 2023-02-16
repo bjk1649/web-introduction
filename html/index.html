@@ -84,15 +84,23 @@
     </div>
     <div id="visitor-book" class="custom-control custom-checkbox">
         <h2> 방명록</h2>
-        이름: <input class="text">
-        <br class="font-weight-bold">본인취향영화<br>
-        <input type="checkbox" name="movie" value="slam-dunk"> 더 퍼스트 슬램덩크<br>
-        <input type="checkbox" name="movie" value="avengers"> 어벤져스: 엔드게임<br>
-        <input type="checkbox" name="movie" value="begin-again"> 비긴 어게인<br>
-        <input type="checkbox" name="movie" value="nania"> 나니아 연대기<br>
-        <input type="checkbox" name="movie" value="iron-man"> 아이언맨<br>
-        <p><button class="btn btn-primary" type="button">등록</button> <button class="btn btn-primary"
-                type="reset">취소</button></p>
+
+        <form>
+            이름: <input id="commentText" class="text">
+            <br class="font-weight-bold">본인취향영화<br>
+            <input id="movie" type="checkbox" name="movie" value="더 퍼스트 슬램덩크"> 더 퍼스트 슬램덩크<br>
+            <input id="movie2" type="checkbox" name="movie" value="어벤져스: 엔드게임"> 어벤져스: 엔드게임<br>
+            <input id="movie3" type="checkbox" name="movie" value="비긴 어게인"> 비긴 어게인<br>
+            <input id="movie4" type="checkbox" name="movie" value="나니아 연대기"> 나니아 연대기<br>
+            <input id="movie5" type="checkbox" name="movie" value="아이언맨"> 아이언맨<br>
+            <p><button id="enter" class="btn btn-primary" type="button">등록</button>
+                <button id="reset" class="btn btn-primary" type="reset">취소</button>
+                <script type="text/javascript" src="../js/functions.js"></script>
+            </p>
+        </form>
+        <ul id="comments" class="comments">
+
+        </ul>
     </div>
 </body>
 
