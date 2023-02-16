@@ -29,13 +29,3 @@ function enterVisitorBook() {
     commentText.value = "";
     alert(name + "님, 저와 " + overlap + "개의 취향이 같으시네요!");
 }
-
-function clearComment() {
-    const comments = document.getElementById("comments");
-    const contents = comments.get
-  
-    for (let i = 0; i < contents.length; i++) {
-      contents.item[i].remove();
-    }
-    
-}
